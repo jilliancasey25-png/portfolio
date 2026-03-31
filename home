@@ -1,0 +1,425 @@
+export default function JillianCaseyPortfolio() {
+  const writingSamples = [
+    {
+      title: "Thought Leadership & Personal Brand Pieces",
+      description:
+        "Big-idea writing that helps experts sound sharp, human, and worth paying attention to.",
+      tag: "Authority building",
+    },
+    {
+      title: "Website Copy & Brand Messaging",
+      description:
+        "Clear, strategic copy that guides readers without sounding stiff, vague, or painfully corporate.",
+      tag: "Conversion-focused",
+    },
+    {
+      title: "Blogs, Newsletters & Educational Content",
+      description:
+        "Accessible writing that teaches, engages, and keeps people reading past the first paragraph.",
+      tag: "Audience trust",
+    },
+  ];
+
+  const portfolioCategories = [
+    {
+      title: "Brand & Thought Leadership Writing",
+      items: [
+        "Thought leadership articles and LinkedIn content",
+        "Website copy that balances personality and clarity",
+        "Blog posts, newsletters, and editorial-style storytelling",
+        "Messaging that helps experts sound smart without sounding robotic",
+      ],
+    },
+    {
+      title: "Content Strategy & Marketing",
+      items: [
+        "Multi-channel campaign messaging and content planning",
+        "Audience-focused messaging tailored by platform and goal",
+        "Editorial calendars, campaign support, and performance-minded strategy",
+        "SEO-aware content development grounded in user experience",
+      ],
+    },
+    {
+      title: "Editing, Proofreading & Voice Development",
+      items: [
+        "Line editing, copyediting, and proofreading",
+        "Brand voice refinement across formats and audiences",
+        "AP Style-informed editing and consistency checks",
+        "Turning dense, jargon-heavy copy into something people can actually read",
+      ],
+    },
+    {
+      title: "Mission-Driven & Educational Storytelling",
+      items: [
+        "Work across healthcare, nonprofit, education, and purpose-led spaces",
+        "Educational content that informs without talking down to people",
+        "Human-centered storytelling that builds trust and emotional connection",
+        "Messaging for organizations doing meaningful work and needing words that carry it well",
+      ],
+    },
+  ];
+
+  const strengths = [
+    "Storytelling that makes complex ideas human and usable",
+    "Content strategy grounded in audience psychology and performance",
+    "SEO-aware writing without sounding like it was written for a robot",
+    "Brand voice development across platforms and formats",
+    "Sharp editing, proofreading, and AP Style fluency",
+    "Cross-sector experience in healthcare, nonprofit, education, and mission-driven communications",
+  ];
+
+  const credentials = [
+    "M.Ed., Instructional Design — Western Governors University",
+    "Graduate Certificate, World War II Studies — American Public University",
+    "B.S., Professional Writing — Champlain College",
+    "B.S., Secondary Education (History) — Champlain College",
+    "Google Analytics Individual Qualification",
+    "HubSpot Content Marketing Certification",
+    "Semrush SEO Fundamentals",
+  ];
+
+  const services = [
+    {
+      title: "Brand Voice & Messaging",
+      description:
+        "Build and refine a distinct, recognizable voice—so your brand doesn’t just communicate, it stands out and sticks.",
+      proof: [
+        "Messaging frameworks and voice guidelines",
+        "Positioning and tonal development across channels",
+        "Turning complex ideas into clear, memorable language",
+        "Designed to scale across teams and contributors",
+      ],
+    },
+    {
+      title: "Campaign & Conversion Copy",
+      description:
+        "High-performing copy across channels that balances creative storytelling with measurable business results.",
+      proof: [
+        "Paid ads (Meta, LinkedIn, Google) and landing pages",
+        "Email campaigns and lifecycle messaging",
+        "Concepting and executing from brief to launch",
+        "Performance-minded iteration without losing brand voice",
+      ],
+    },
+    {
+      title: "Content & Thought Leadership",
+      description:
+        "Strategic content that builds authority, earns trust, and makes your ideas impossible to ignore.",
+      proof: [
+        "Thought leadership articles and executive voice development",
+        "Blogs, ebooks, and educational content",
+        "Cross-functional collaboration with subject-matter experts",
+        "Blending storytelling with strategy and SEO awareness",
+      ],
+    },
+    {
+      title: "Editing & Copy Leadership",
+      description:
+        "Rigorous editing and creative direction to ensure every piece of content meets a high bar for clarity, consistency, and impact.",
+      proof: [
+        "Line editing, copyediting, and proofreading",
+        "Maintaining quality and consistency across teams and contributors",
+        "Feedback that strengthens both the work and the writer",
+        "Safeguarding voice and standards at scale",
+      ],
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-stone-50 text-slate-900">
+      <div className="sticky top-0 z-50 border-b border-stone-200/80 bg-white/95 shadow-sm backdrop-blur transition-shadow duration-300">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10 lg:px-12">
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-base font-bold text-white shadow-sm">
+              JC
+            </div>
+            <div>
+              <div className="text-lg font-bold tracking-tight text-slate-900">Jillian Casey</div>
+              <div className="text-sm text-slate-600">Writer • Strategist • Editor</div>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <a
+              href="mailto:jillian.casey25@gmail.com"
+              className="hidden rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md md:inline-flex"
+            >
+              Work with me
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jilliancasey"
+              className="hidden rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-semibold text-slate-800 transition duration-300 hover:-translate-y-0.5 hover:border-slate-400 hover:bg-stone-50 hover:shadow-sm md:inline-flex"
+            >
+              Read my work
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section className="relative overflow-hidden border-b border-stone-200 bg-white">
+        <div className="absolute inset-0 bg-[linear-gradient(to_bottom_right,_#f8fafc,_#ffffff,_#f5f5f4)]" />
+        <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-24 bg-[linear-gradient(to_bottom,transparent,rgba(15,23,42,0.04),transparent)] md:block" />
+
+        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 py-14 md:grid-cols-[1.05fr_.95fr] md:px-10 lg:px-12 lg:py-20">
+          <div className="space-y-6">
+            <div className="inline-flex rounded-full border border-stone-300 bg-white/90 px-4 py-1 text-sm font-medium text-slate-700 shadow-sm backdrop-blur">
+              Thoughtful writing for smart people with something to say
+            </div>
+
+            <h1 className="max-w-3xl text-5xl font-black tracking-tight text-slate-900 md:text-6xl lg:text-7xl">
+              Sharp writing.
+              <br />
+              Clear strategy.
+              <br />
+              Real human voice.
+            </h1>
+
+            <p className="max-w-2xl text-lg leading-8 text-slate-700 md:text-xl">
+              I help brands find their voice—and make it impossible to ignore.
+            </p>
+
+            <div className="flex flex-wrap gap-3 pt-1">
+              <a
+                href="mailto:jillian.casey25@gmail.com"
+                className="rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md"
+              >
+                Work with me
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jilliancasey"
+                className="rounded-2xl border border-stone-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 transition duration-300 hover:-translate-y-0.5 hover:border-slate-400 hover:bg-stone-50 hover:shadow-sm"
+              >
+                Read my work
+              </a>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="absolute -left-6 top-10 hidden h-24 w-24 rounded-full bg-slate-200/60 blur-2xl md:block" />
+            <div className="absolute -right-4 bottom-10 hidden h-28 w-28 rounded-full bg-stone-200/70 blur-2xl md:block" />
+            <div className="overflow-hidden rounded-[2.5rem] border border-white/70 bg-white p-3 shadow-2xl shadow-stone-300/60 transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(15,23,42,0.18)]">
+              <img
+                src="/mnt/data/JC_66.jpg"
+                alt="Jillian Casey sitting with notebook and coffee"
+                className="h-full w-full rounded-[2rem] object-cover transition duration-700 hover:scale-[1.02]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10 lg:px-12">
+        <div className="max-w-5xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-700">About</p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight">
+            Storytelling with a strategy behind every sentence.
+          </h2>
+
+          <div className="mt-8 space-y-5 text-base leading-8 text-slate-700 md:text-lg">
+            <p>
+              I’m Jillian—seasoned storyteller, spelunker of words, avid reader, and captain of the grammar police. I love telling stories. When I was young, they gave me an escape. Now they give me purpose. I believe good stories can make a real difference in the world, and I have more than a decade of experience helping organizations tell the right stories to connect with the people they serve.
+            </p>
+            <p>
+              I develop content strategies to shape brand voice and elevate mission-driven work. I offer content services (SEO-driven web content, thought leadership articles, white papers and educational ebooks, social media copy, presentations, etc.) as well as proofreading and copyediting support. I will always advocate for the Oxford comma.
+            </p>
+            <p>
+              I have experience in a variety of industries, including healthcare, education, nonprofits, fintech, agriculture, finance, and appsec. My goal is simple: help organizations communicate more clearly, build trust, and create content that looks good <em>and</em> performs.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-10 grid gap-6 sm:grid-cols-3 max-w-5xl">
+          <a href="#services" className="group relative overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <img src="/mnt/data/My Services.jpg" alt="My services" className="h-40 w-full object-cover transition duration-700 group-hover:scale-105" />
+            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-white text-lg font-semibold tracking-tight transition duration-300 group-hover:scale-[1.03]">My services</span>
+            </div>
+          </a>
+
+          <a href="#writing" className="group relative overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <img src="/mnt/data/Read My Work.jpg" alt="Read my work" className="h-40 w-full object-cover transition duration-700 group-hover:scale-105" />
+            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-white text-lg font-semibold tracking-tight transition duration-300 group-hover:scale-[1.03]">Read my work</span>
+            </div>
+          </a>
+
+          <a href="mailto:jillian.casey25@gmail.com" className="group relative overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <img src="/mnt/data/Get in touch.jpg" alt="Work with me" className="h-40 w-full object-cover transition duration-700 group-hover:scale-105" />
+            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-white text-lg font-semibold tracking-tight transition duration-300 group-hover:scale-[1.03]">Work with me</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="services" className="border-y border-stone-200 bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-16 md:px-10 lg:px-12">
+          <div className="max-w-2xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-700">Services</p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight">How I can help</h2>
+            <p className="mt-4 text-base leading-7 text-slate-600">
+              I’m especially strong in complex, mission‑driven, and people‑centered spaces — but my work is never limited to a single industry. Whether you need strategic messaging, polished content, or a sharper brand voice, I help translate big ideas into language real people understand.
+            </p>
+          </div>
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            {services.map((service) => (
+              <div
+                key={service.title}
+                className="rounded-[1.75rem] border border-stone-200 bg-stone-50 p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-stone-300 hover:shadow-md"
+              >
+                <h3 className="text-xl font-semibold">{service.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-slate-600">{service.description}</p>
+                <ul className="mt-4 space-y-2 text-sm text-slate-600">
+                  {service.proof.map((item) => (
+                    <li key={item} className="flex gap-2">
+                      <span className="mt-2 h-1.5 w-1.5 rounded-full bg-slate-400" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="writing" className="mx-auto max-w-7xl px-6 py-16 md:px-10 lg:px-12">
+        <div className="max-w-2xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-700">Writing samples</p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight">A few ways my work can show up</h2>
+          <p className="mt-4 text-base leading-7 text-slate-600">
+            You can treat these as sample buckets for now, then swap in published links, PDFs, or featured
+            projects as your portfolio grows.
+          </p>
+        </div>
+        <div className="mt-10 grid gap-6 lg:grid-cols-3">
+          {writingSamples.map((sample) => (
+            <div
+              key={sample.title}
+              className="rounded-[2rem] border border-stone-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-stone-300 hover:shadow-md"
+            >
+              <div className="inline-flex rounded-full bg-fuchsia-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.15em] text-fuchsia-700">
+                {sample.tag}
+              </div>
+              <h3 className="mt-5 text-2xl font-semibold tracking-tight">{sample.title}</h3>
+              <p className="mt-4 text-sm leading-7 text-slate-600">{sample.description}</p>
+              <a
+                href="https://www.linkedin.com/in/jilliancasey" className="mt-6 inline-flex text-sm font-semibold text-fuchsia-700 transition duration-300 hover:translate-x-1 hover:text-fuchsia-800">
+                View sample →
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10 lg:px-12">
+        <div className="max-w-2xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-700">Portfolio snapshot</p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight">The kinds of work I’ve done</h2>
+          <p className="mt-4 text-base leading-7 text-slate-600">
+            Think of this less like a job-history recap and more like a catalogue of the skills, projects,
+            and content muscles I bring to the table.
+          </p>
+        </div>
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
+          {portfolioCategories.map((category) => (
+            <div key={category.title} className="rounded-[2rem] border border-stone-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
+              <h3 className="text-2xl font-semibold tracking-tight">{category.title}</h3>
+              <div className="mt-6 grid gap-3">
+                {category.items.map((item) => (
+                  <div key={item} className="rounded-2xl bg-stone-50 px-4 py-3 text-sm leading-6 text-slate-700 transition duration-300 hover:bg-stone-100">
+                    {item}
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-y border-stone-200 bg-stone-100/70">
+        <div className="mx-auto grid max-w-7xl gap-8 px-6 py-16 md:px-10 lg:grid-cols-2 lg:px-12">
+          <div className="rounded-[2rem] border border-stone-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-700">
+              Education & credentials
+            </p>
+            <div className="mt-6 space-y-3">
+              {credentials.map((item) => (
+                <div key={item} className="rounded-2xl bg-stone-50 px-4 py-3 text-sm leading-6 text-slate-700 transition duration-300 hover:bg-stone-100">
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-[2rem] border border-stone-200 bg-slate-900 p-8 text-white shadow-sm">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-200">
+              Why clients hire me
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight">Clear writing. Strong instincts. No fluff.</h2>
+            <p className="mt-5 text-base leading-8 text-slate-200">
+              I’m at my best when I’m helping organizations find the overlap between what they need to say
+              and what their audience actually needs to hear.
+            </p>
+            <p className="mt-4 text-base leading-8 text-slate-300">
+              Translation: less jargon, fewer sleepy sentences, and a lot more clarity, credibility, and
+              connection.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a
+                href="mailto:jillian.casey25@gmail.com"
+                className="rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition duration-300 hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
+              >
+                Let’s work together
+              </a>
+              <a
+                href="tel:5182606155"
+                className="rounded-2xl border border-white/20 px-5 py-3 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5 hover:bg-white/10 hover:shadow-sm"
+              >
+                Call 518.260.6155
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className="mx-auto max-w-7xl px-6 py-10 md:px-10 lg:px-12">
+        <div className="flex flex-col gap-4 rounded-[2rem] border border-stone-200 bg-white p-6 shadow-sm md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center gap-4">
+            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-sm font-bold text-white shadow-sm">
+              JC
+            </div>
+            <div>
+              <div className="text-lg font-semibold">Jillian Casey</div>
+              <div className="mt-1 text-sm text-slate-600">Writer • Strategist • Editor</div>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-3 text-sm">
+            <a
+              href="mailto:jillian.casey25@gmail.com"
+              className="rounded-full bg-stone-100 px-4 py-2 text-slate-700 transition duration-300 hover:-translate-y-0.5 hover:bg-stone-200"
+            >
+              jillian.casey25@gmail.com
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jilliancasey"
+              className="rounded-full bg-stone-100 px-4 py-2 text-slate-700 transition duration-300 hover:-translate-y-0.5 hover:bg-stone-200"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="tel:5182606155"
+              className="rounded-full bg-stone-100 px-4 py-2 text-slate-700 transition duration-300 hover:-translate-y-0.5 hover:bg-stone-200"
+            >
+              518.260.6155
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
